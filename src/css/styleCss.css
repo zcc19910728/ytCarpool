@@ -1,0 +1,48 @@
+.PaginationUl {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.paginationBox {
+  display: inline-block;
+  padding: 5px 8px;
+  border: 1px solid #333;
+  border-radius: 2px;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.paginationBox:hover{
+  border-color: #40a9ff;
+  color: #40a9ff;
+}
+
+.paginationArrowLeft, .paginationArrowRight {
+  display: inline-block;
+  padding: 5px 8px;
+  border: 1px solid #333;
+  border-radius: 2px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.paginationArrowLeft:hover{
+  border-color: #40a9ff;
+  color: #40a9ff;
+}
+
+.paginationArrowRight:hover{
+  border-color: #40a9ff;
+  color: #40a9ff;
+}
+
+.paginationArrowRight {
+  margin-left: 10px;
+}
+
+.active{
+  border-color: #40a9ff;
+  color: #40a9ff;
+}
